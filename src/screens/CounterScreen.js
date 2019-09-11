@@ -6,15 +6,15 @@ const CounterScreen = () => {
 
     return (
         <View>
-        <Button 
-            title='Increase'
-            onPress={() => setCounter(counter + 1) }
-        />
-        <Button 
-            title='Decrease'
-            onPress={() => setCounter(counter - 1) }             
-        />
-            <Text>Current Count: {counter}</Text>
+            <Button 
+                title='Increase'
+                onPress={() => setCounter(counter + 1) }
+            />
+            <Button 
+                title='Decrease'
+                onPress={() => setCounter(counter - 1) }             
+            />
+                <Text>Current Count: {counter}</Text>
         </View>
     );
 };
