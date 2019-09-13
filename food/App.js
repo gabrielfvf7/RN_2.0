@@ -1,13 +1,13 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
-import SearchScreen from './src/screens/SearchScreen';
+import ReduxScreen from './src/screens/ReduxScreen';
 
 const navigator = createStackNavigator({
-  Search: SearchScreen
+  Redux: ReduxScreen
 }, {
-  initialRouteName: 'Search',
+  initialRouteName: 'Redux',
   defaultNavigationOptions: {
-    title: 'Business Search',
+    title: 'Redux',
   }
 });
 
